@@ -1,0 +1,16 @@
+{"sync_node_id": 3, "client_id": 104, "client_timestamp": 1772477114869, "write_timestamp": 1772477114894, "primary_store": 2}
+{"sync_node_id": 2, "client_id": 103, "client_timestamp": 1772477118937, "write_timestamp": 1772477118940, "primary_store": 2}
+{"sync_node_id": 1, "client_id": 102, "client_timestamp": 1772477122986, "write_timestamp": 1772477122997, "primary_store": 0}
+{"sync_node_id": 0, "client_id": 101, "client_timestamp": 1772477127033, "write_timestamp": 1772477127035, "primary_store": 0}
+{"sync_node_id": 4, "client_id": 105, "client_timestamp": 1772477131076, "write_timestamp": 1772477131090, "primary_store": 1}
+{"sync_node_id": 3, "client_id": 104, "client_timestamp": 1772477135133, "write_timestamp": 1772477135146, "primary_store": 2}
+{"sync_node_id": 2, "client_id": 103, "client_timestamp": 1772477139196, "write_timestamp": 1772477139198, "primary_store": 2}
+{"sync_node_id": 1, "client_id": 102, "client_timestamp": 1772477143231, "write_timestamp": 1772477143233, "primary_store": 2}
+{"sync_node_id": 0, "client_id": 101, "client_timestamp": 1772477147276, "write_timestamp": 1772477147287, "primary_store": 0}
+{"sync_node_id": 4, "client_id": 105, "client_timestamp": 1772477151334, "write_timestamp": 1772477151346, "primary_store": 2}
+{"sync_node_id": 3, "client_id": 104, "client_timestamp": 1772477155369, "write_timestamp": 1772477155385, "primary_store": 0}
+{"sync_node_id": 2, "client_id": 103, "client_timestamp": 1772477159418, "write_timestamp": 1772477159433, "primary_store": 1}
+{"sync_node_id": 1, "client_id": 102, "client_timestamp": 1772477163469, "write_timestamp": 1772477163471, "primary_store": 1}
+{"sync_node_id": 0, "client_id": 101, "client_timestamp": 1772477167502, "write_timestamp": 1772477167505, "primary_store": 1}
+{"sync_node_id": 4, "client_id": 105, "client_timestamp": 1772477171538, "write_timestamp": 1772477171540, "primary_store": 1}
+{"sync_node_id": 3, "client_id": 104, "client_timestamp": 1772477175571, "write_timestamp": 1772477175573, "primary_store": 1}

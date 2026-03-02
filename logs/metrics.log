@@ -1,0 +1,49 @@
+# === EXECUCAO INICIADA EM 2026-03-02 18:44:56 ===
+
+[18:45:10.793]  NO 0             METRICA    Circulacoes do token               0
+[18:45:10.794]  NO 0             METRICA    Acessos a secao critica            0
+[18:45:10.794]  NO 0             METRICA    Latencia media store (ms)          0.0
+[18:45:10.794]  NO 0             METRICA    Falhas no store                    0
+[18:45:10.795]  NO 0             METRICA    Retries no store                   0
+[18:45:10.795]  NO 0             METRICA    Pedidos recebidos                  1
+[18:45:10.795]  NO 0             METRICA    COMMITTEDs enviados                0
+[18:45:10.795]  NO 0             METRICA    Falhas detectadas                  0
+[18:45:10.796]  NO 0             METRICA   [18:45:25.179]  STORE 0|PRI      METRICA    Writes recebidos               1
+[18:45:25.182]  STORE 0|PRI      METRICA  [18:45:25.796]  NO 0             METRICA    Circulacoes do token               3
+[18:45:25.797]  NO 0             METRICA    Acessos a secao critica            0
+[18:45:25.797]  NO 0             METRICA    Latencia media store (ms)          0.0
+[18:45:25.797]  NO 0             METRICA    Falhas no store                    0
+[18:45:25.798]  NO 0             METRICA    Retries no store                   0
+[18:45:25.799]  NO 0             METRICA    Pedidos recebidos                  1
+[18:45:25.800]  NO 0             METRICA    COMMITTEDs enviados                0
+[18:45[18:45:40.192]  STORE 1|BAK      METRICA    Writes recebidos               1
+[18:45:40.193]  STORE 1|BAK      METRICA    Writes executados              7
+[18:45:40.195]  STORE 1|BAK      METRICA    Replicacoes async OK           2
+[18:45[18:45:40.803]  NO 0             METRICA    Circulacoes do token               6
+[18:45:40.803]  NO 0             METRICA    Acessos a secao critica            1
+[18:45:40.803]  NO 0             METRICA    Latencia media store (ms)          6.0
+[18:45:40.804]  NO 0             METRICA    Falhas no store                    0
+[18:45:40.804]  NO 0             METRICA    Retries no store                   0
+[18:45:40.805]  NO 0             METRICA    Pedido[18:45:55.200]  STORE 1|BAK      METRICA    Writes recebidos               1
+[18:45:55.201]  STORE 1|BAK      METRICA    Writes executados              10
+[18:45:55.201]  STORE 0|BAK      METRICA    Replicacoes async OK           6
+[18:45:55.202]  STORE 0|BAK      METRICA    Replicacoes async FAIL         0
+[18:45:55.203]  STORE 0|BAK      METRICA    Tr[18:45:55.807]  NO 0             METRICA    Circulacoes do token               9
+[18:45:55.807]  NO 0             METRICA    Acessos a secao critica            2
+[18:45:55.808]  NO 0             METRICA    Latencia media store (ms)          10.5
+[18:45:55.808]  NO 0             METRICA    Falhas no store                    0
+[18:45:55.808[18:46:10.208]  STORE 0|BAK      METRICA    Writes recebidos               4
+[18:46:10.211]  STORE 0|BAK      METRICA    Writes executados              14
+[[18:46:10.212]  STORE 2|BAK      METRICA    Replicacoes async OK           1[1[18:46:10.214]  STORE 2|BAK      METRICA    Replicacoes async FAIL         [1[18:46:10.216]  STORE 2|BAK      METRICA    Transfers como origem          [1[18:46:10.217]  STORE 2|BAK      METRICA    Transfers como destino         [1[18:46:1[18:46:10.813]  NO 0             METRICA    Circulacoes do token               12
+[18:46:10.814]  NO 0             METRICA    Acessos a secao critica            3
+[18:46:10.815]  NO 0             METRICA    Latencia media store (ms)          8.7
+[18:46:10.815]  NO 0             METRICA    Falhas no store                    0
+[18:46:10.816]  NO 0             METRICA    Retries no store                   0
+[18:46:10.816]  NO 0             METRICA    Pedidos recebidos                  4
+[18:46:10.817]  NO 0             METRICA    COMMITTEDs enviados                3
+[18:46:10.817]  NO 0             METRICA    Falhas detectadas                  0
+[18:46:10.818]  NO 0             METRICA    Failovers aplicados                0
+[18:46:10.819]  NO 0             METRICA    Tokens pulados (mortos)            0
+
+
+0

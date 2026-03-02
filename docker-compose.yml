@@ -1,0 +1,145 @@
+version: "3.8"
+
+x-node-common: &node-common
+  build: .
+  volumes:
+    - ./logs:/app/logs
+  environment:
+    - PYTHONUNBUFFERED=1
+
+x-store-common: &store-common
+  build: .
+  volumes:
+    - ./logs:/app/logs
+    - ./data:/app/data
+  environment:
+    - PYTHONUNBUFFERED=1
+
+x-client-common: &client-common
+  build: .
+  volumes:
+    - ./logs:/app/logs
+  environment:
+    - PYTHONUNBUFFERED=1
+
+services:
+  node0:
+    <<: *node-common
+    command: python node.py
+    environment:
+      - PYTHONUNBUFFERED=1
+      - MY_ID=0
+      - NEXT_NODE_HOST=node1
+      - NEXT_NODE_ID=1
+    depends_on: [store0, store1, store2]
+
+  node1:
+    <<: *node-common
+    command: python node.py
+    environment:
+      - PYTHONUNBUFFERED=1
+      - MY_ID=1
+      - NEXT_NODE_HOST=node2
+      - NEXT_NODE_ID=2
+    depends_on: [store0, store1, store2]
+
+  node2:
+    <<: *node-common
+    command: python node.py
+    environment:
+      - PYTHONUNBUFFERED=1
+      - MY_ID=2
+      - NEXT_NODE_HOST=node3
+      - NEXT_NODE_ID=3
+    depends_on: [store0, store1, store2]
+
+  node3:
+    <<: *node-common
+    command: python node.py
+    environment:
+      - PYTHONUNBUFFERED=1
+      - MY_ID=3
+      - NEXT_NODE_HOST=node4
+      - NEXT_NODE_ID=4
+    depends_on: [store0, store1, store2]
+
+  node4:
+    <<: *node-common
+    command: python node.py
+    environment:
+      - PYTHONUNBUFFERED=1
+      - MY_ID=4
+      - NEXT_NODE_HOST=node0
+      - NEXT_NODE_ID=0
+    depends_on: [store0, store1, store2]
+
+  store0:
+    <<: *store-common
+    command: python store.py
+    environment:
+      - PYTHONUNBUFFERED=1
+      - MY_STORE_ID=0
+
+  store1:
+    <<: *store-common
+    command: python store.py
+    environment:
+      - PYTHONUNBUFFERED=1
+      - MY_STORE_ID=1
+
+  store2:
+    <<: *store-common
+    command: python store.py
+    environment:
+      - PYTHONUNBUFFERED=1
+      - MY_STORE_ID=2
+
+  client1:
+    <<: *client-common
+    command: python client.py
+    environment:
+      - PYTHONUNBUFFERED=1
+      - CLIENT_ID=101
+      - TARGET_NODE_HOST=node0
+      - TARGET_NODE_PORT=8080
+    depends_on: [node0]
+
+  client2:
+    <<: *client-common
+    command: python client.py
+    environment:
+      - PYTHONUNBUFFERED=1
+      - CLIENT_ID=102
+      - TARGET_NODE_HOST=node1
+      - TARGET_NODE_PORT=8080
+    depends_on: [node1]
+
+  client3:
+    <<: *client-common
+    command: python client.py
+    environment:
+      - PYTHONUNBUFFERED=1
+      - CLIENT_ID=103
+      - TARGET_NODE_HOST=node2
+      - TARGET_NODE_PORT=8080
+    depends_on: [node2]
+
+  client4:
+    <<: *client-common
+    command: python client.py
+    environment:
+      - PYTHONUNBUFFERED=1
+      - CLIENT_ID=104
+      - TARGET_NODE_HOST=node3
+      - TARGET_NODE_PORT=8080
+    depends_on: [node3]
+
+  client5:
+    <<: *client-common
+    command: python client.py
+    environment:
+      - PYTHONUNBUFFERED=1
+      - CLIENT_ID=105
+      - TARGET_NODE_HOST=node4
+      - TARGET_NODE_PORT=8080
+    depends_on: [node4]

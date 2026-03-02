@@ -1,0 +1,14 @@
+{"sync_node_id": 4, "client_id": 105, "client_timestamp": 1772130650518, "write_timestamp": 1772130650566, "primary_store": 1}
+{"sync_node_id": 2, "client_id": 103, "client_timestamp": 1772130653579, "write_timestamp": 1772130653595, "primary_store": 2}
+{"sync_node_id": 1, "client_id": 102, "client_timestamp": 1772130657606, "write_timestamp": 1772130657626, "primary_store": 0}
+{"sync_node_id": 0, "client_id": 101, "client_timestamp": 1772130661645, "write_timestamp": 1772130661661, "primary_store": 2}
+{"sync_node_id": 3, "client_id": 104, "client_timestamp": 1772130664677, "write_timestamp": 1772130664695, "primary_store": 0}
+{"sync_node_id": 4, "client_id": 105, "client_timestamp": 1772130665705, "write_timestamp": 1772130665706, "primary_store": 0}
+{"sync_node_id": 2, "client_id": 103, "client_timestamp": 1772130668713, "write_timestamp": 1772130668725, "primary_store": 1}
+{"sync_node_id": 1, "client_id": 102, "client_timestamp": 1772130672736, "write_timestamp": 1772130672738, "primary_store": 1}
+{"sync_node_id": 0, "client_id": 101, "client_timestamp": 1772130676753, "write_timestamp": 1772130676754, "primary_store": 1}
+{"sync_node_id": 3, "client_id": 104, "client_timestamp": 1772130679762, "write_timestamp": 1772130679777, "primary_store": 0}
+{"sync_node_id": 4, "client_id": 105, "client_timestamp": 1772130680785, "write_timestamp": 1772130680786, "primary_store": 0}
+{"sync_node_id": 2, "client_id": 103, "client_timestamp": 1772130683796, "write_timestamp": 1772130683811, "primary_store": 2}
+{"sync_node_id": 1, "client_id": 102, "client_timestamp": 1772130687821, "write_timestamp": 1772130687836, "primary_store": 1}
+{"sync_node_id": 0, "client_id": 101, "client_timestamp": 1772130691851, "write_timestamp": 1772130691863, "primary_store": 0}
